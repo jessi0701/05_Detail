@@ -1,0 +1,23 @@
+{% extends "detail/base.html" %}
+{% block bb %}
+    <div class="container">
+        <div class="py-3 text-center"><h1>Q & A</h1></div>
+        <div class="row">
+            <div class="col-md-6 mb-3">
+                <label for="title">제목</label>
+                <input type="text" class="form-control" id="title">
+            </div>
+            <div class="col-md-6 mb-3">
+                <label for="email">이메일</label>
+                <input type="email" class="form-control" id="email">
+            </div>
+        </div>
+        <div class="mb-3">
+            <label for="content">내용</label>
+            <!--<input type="textarea" class="form-control" id="content">-->
+            <textarea class="form-control" id="content"></textarea>
+            
+        </div>
+        <button type="button" class="btn btn-primary">Submit</button>
+    </div>
+{% endblock %}

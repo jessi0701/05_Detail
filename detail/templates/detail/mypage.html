@@ -1,0 +1,43 @@
+{% extends "detail/base.html" %}
+{% load static %}
+{% block bb %}
+<div class="container">
+    <div class="row mb-2">
+        <div class="col-md-6 d-flex justify-content-center">
+            <div class="card" style="width: 18rem; position:fixed;">
+              <img src="{% static 'img/hodo_4.jpeg' %}" class="card-img-top rounded-circle" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Nokgu</h5>
+                <h6 class="card-subtitle mb-2 text-muted">jessi0701@naver.com</h6>
+                <p class="card-text">hi! my name is nokgu</p>
+                <a href="#" class="btn btn-danger">logout</a>
+              </div>
+            </div>
+        </div>
+        <div class="col-md-6 d-flex justify-content-center">
+            <div class="mypage card" style="width: 50rem;">
+              <img src="{% static 'img/spongebob2.jpg' %}" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">작성글</h5>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+              <img src="{% static 'img/spongebob2.jpg' %}" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">작성글</h5>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+              <img src="{% static 'img/spongebob2.jpg' %}" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">작성글</h5>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+              <img src="{% static 'img/spongebob2.jpg' %}" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">작성글</h5>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+        </div>
+    </div>    
+</div>
+{% endblock %}
